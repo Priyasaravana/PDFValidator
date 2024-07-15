@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app/src  # Ensures Python knows where to find your modules
+    volumes:
+      - .:/app  # Mounts the current directory to /app in the container

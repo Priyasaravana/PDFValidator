@@ -1,0 +1,9 @@
+langchain
+langchain_community
+fastapi==0.111.0
+pandas
+ollama
+plotly
+nbformat>=4.2.0
+uvicorn
+langchain_openai
